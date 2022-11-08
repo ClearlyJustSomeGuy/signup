@@ -3,18 +3,22 @@
     src: url(./font/Norse-Bold.otf);
 }
 
-body {
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #0A121A;
     padding: 0px;
 }
 
-div {
-    /* border: red 1px solid; */
-}
+/* div {
+    border: red 1px solid;
+} */
 
 .container {
-    height: 950px;
+    height: 100%;
     margin: 0px 275px;
     display: grid;
     grid-template-columns: 35% auto;
@@ -22,8 +26,6 @@ div {
 }
 
 .banner {
-    /* grid-row: 1 / 4; */
-    background-color: purple;
     display: flex;
     flex-direction: column;
     background-image: url(lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
@@ -120,14 +122,18 @@ input:focus {
     flex-direction: column;
 }
 
+.submit-area {
+    padding: 50px;
+}
+
 button {
-    margin-top: 100px;
     height: 50px;
     width: 140px;
     background-color: #FF5E6F;
     color:#0A121A;
     border-radius: 5px;
     border: none;
+    font-size: 14px;
 }
 
 .acct {
