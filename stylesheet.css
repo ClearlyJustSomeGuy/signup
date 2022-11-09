@@ -28,7 +28,7 @@ html, body {
 .banner {
     display: flex;
     flex-direction: column;
-    background-image: url(lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
+    background-image: url(./imgs/lawrence-kayku-ZVKr8wADhpc-unsplash.jpg);
     justify-content: end;
     background-position: center;
     background-size: cover;
@@ -139,4 +139,13 @@ button {
 .acct {
     margin-top: 8px;
     font-size: 16px;
+}
+
+.error {
+    outline: 1px red solid;
+    border-radius: 4px;
+}
+
+.error div {
+    color: red;
 }
