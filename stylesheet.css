@@ -64,9 +64,10 @@ html, body {
     font-size: larger;
 }
 
-.credit a {
+a, a:visited {
     color: darkgrey;
 }
+
 
 .right {
     background-color: #4E6659;
