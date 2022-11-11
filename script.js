@@ -8,7 +8,7 @@ function pwordCheck(psw_one, psw_two) {
 }
 
 psw_one.addEventListener('input', () => {
-    console.log(psw_one.value);
+    // console.log(psw_one.value);
     if (psw_one.value.length > 0) {
         psw_two.removeAttribute('disabled');
     } else {
@@ -20,7 +20,7 @@ btnCheck.addEventListener('click', (e) => {
     if (!pwordCheck(psw_one, psw_two)) {
         e.preventDefault();
         pwordDivs.forEach((pwordDiv) => {
-            console.log(pwordDiv);
+            // console.log(pwordDiv);
             if (!pwordDiv.classList.contains('error')) {
                 pwordDiv.classList.add('error');
                 let warning = document.createElement('div');
